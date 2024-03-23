@@ -1,0 +1,10034 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9c10ef28-a96c-4147-a058-b8f0fdfdf18e")
+	(paper "A3")
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 49.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07be033e-28a8-44c6-a12b-fe0288147e6a")
+	)
+	(junction
+		(at 125.73 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08fbbe7a-6428-46e2-a15b-f014a327622e")
+	)
+	(junction
+		(at 163.83 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d7108b5-c5cf-4f87-a61b-3047bd68a3d2")
+	)
+	(junction
+		(at 316.23 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef8fb89-4303-4539-891b-81248384f096")
+	)
+	(junction
+		(at 240.03 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1797be7f-49b0-4a48-8c4a-70b5e7a739c0")
+	)
+	(junction
+		(at 163.83 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c460644-8b27-4054-99f3-3868304a5e3a")
+	)
+	(junction
+		(at 316.23 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eac4224-74ce-4f11-a964-f2c70c3fd77d")
+	)
+	(junction
+		(at 201.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ee15ef9-a891-41a4-85f8-15f34a5d41f2")
+	)
+	(junction
+		(at 278.13 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2327af7c-6367-417a-80cd-ff13829f61d4")
+	)
+	(junction
+		(at 49.53 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24c21dd8-dcfb-4fc6-b0d7-afd88904835f")
+	)
+	(junction
+		(at 125.73 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f1f9a7-ab7a-4d17-8359-0dfcb3582d02")
+	)
+	(junction
+		(at 240.03 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2920fd8b-3ef5-4c74-a44c-e6b80c2bd33b")
+	)
+	(junction
+		(at 49.53 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed0056f-9471-48ab-8843-fb043f2ed648")
+	)
+	(junction
+		(at 87.63 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31d6ba29-96d3-4ba0-82f9-861436b1dc79")
+	)
+	(junction
+		(at 38.1 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34dce49e-767e-4a85-ad4e-b987e0efc59c")
+	)
+	(junction
+		(at 240.03 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50143919-13c8-4d5a-807f-4e9cfcc93d8b")
+	)
+	(junction
+		(at 278.13 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "564cf24d-5211-45f8-80dd-e7302607be86")
+	)
+	(junction
+		(at 316.23 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5886eb59-76a4-40fe-96de-52da2ae1924e")
+	)
+	(junction
+		(at 278.13 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63de066b-aadc-48ff-8393-38ac5f459aa4")
+	)
+	(junction
+		(at 240.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65ca37fc-8b46-415b-9b9f-c10bb34bc437")
+	)
+	(junction
+		(at 278.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6753aa2b-4a41-4c5a-b00a-796d93e6ea4b")
+	)
+	(junction
+		(at 278.13 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68faa305-8fa5-4ceb-a15c-427cf0ab91b6")
+	)
+	(junction
+		(at 316.23 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7f9052-e174-481e-90e7-a58a186e6763")
+	)
+	(junction
+		(at 201.93 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c00225f-63eb-407f-9fca-b0c175a11857")
+	)
+	(junction
+		(at 201.93 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e8505c9-5030-4cf6-b3b2-41b616f7f338")
+	)
+	(junction
+		(at 316.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5248eb-3857-4e47-a7e1-73cd85d78e01")
+	)
+	(junction
+		(at 125.73 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "723a958b-0762-4350-bf4e-f00a80b88769")
+	)
+	(junction
+		(at 201.93 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72960a3d-0a25-411d-9ca9-f1ed2495adf5")
+	)
+	(junction
+		(at 87.63 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "791aa6c4-7502-4780-bb3c-989f4dbf241f")
+	)
+	(junction
+		(at 240.03 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b355b38-4efb-4048-b353-359b07ae22ff")
+	)
+	(junction
+		(at 125.73 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87ac6369-43f2-4ce5-b44e-ef86420c84e8")
+	)
+	(junction
+		(at 87.63 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89127e2b-f930-4bbc-b51e-bb3dbdee6599")
+	)
+	(junction
+		(at 163.83 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a6716ba-9e85-4d20-bdd3-c692e41610e8")
+	)
+	(junction
+		(at 240.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b36d549-0a0e-4b93-8d2f-2f5a42b344f7")
+	)
+	(junction
+		(at 72.39 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c79e1bf-22cf-4abf-814d-ee88fe251462")
+	)
+	(junction
+		(at 201.93 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e3b2428-a347-4b0c-a8d3-c5d345a87266")
+	)
+	(junction
+		(at 87.63 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90dca5c1-bf6a-415a-a24c-f3d08f9924e9")
+	)
+	(junction
+		(at 125.73 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9172e889-9985-4400-a93b-5407d7db85c5")
+	)
+	(junction
+		(at 125.73 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9429d16a-1e3d-47d3-ba94-06040c616df3")
+	)
+	(junction
+		(at 125.73 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9588c849-820d-4e2e-80e4-4aad5957267d")
+	)
+	(junction
+		(at 163.83 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0373711-694e-4aef-b71d-b8074d19288c")
+	)
+	(junction
+		(at 87.63 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5902566-d741-4114-9d7a-8bdc7f844434")
+	)
+	(junction
+		(at 201.93 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac283187-04ae-4f8b-91dd-7ec90bc861b4")
+	)
+	(junction
+		(at 163.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0ed5204-ccb6-4d13-a2f4-d94173aa70d9")
+	)
+	(junction
+		(at 49.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3bf221b-e0cf-46e2-b0c6-0936ee26cf78")
+	)
+	(junction
+		(at 49.53 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5cc8ee5-7744-4f52-add4-8ba584588d36")
+	)
+	(junction
+		(at 240.03 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f159c5-5836-47c8-ab39-b99025b45501")
+	)
+	(junction
+		(at 278.13 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9f154ae-ff99-4ba2-a6a8-973275f17114")
+	)
+	(junction
+		(at 278.13 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f086fd-fc4d-4ee9-a408-828446631469")
+	)
+	(junction
+		(at 201.93 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d811ece7-6c5f-4b8c-b22d-93d3923c0986")
+	)
+	(junction
+		(at 316.23 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9844f08-b4a9-42db-84ac-f05129001786")
+	)
+	(junction
+		(at 87.63 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e111a3e4-4203-4122-b35a-2776419753ad")
+	)
+	(junction
+		(at 316.23 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e66c8955-1e2f-4877-bc51-2cc540d55a45")
+	)
+	(junction
+		(at 49.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecdb455d-ddaf-44fb-a6fd-b0ed4b2aa411")
+	)
+	(junction
+		(at 125.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef3dc1e0-17aa-45d3-af61-99649a28b422")
+	)
+	(junction
+		(at 163.83 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f243b4-4a87-449a-83c6-8ffd337d85a9")
+	)
+	(junction
+		(at 163.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74bb348-8b5d-424f-a582-e0735ff73ef2")
+	)
+	(junction
+		(at 278.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f907e006-56e0-4879-8bce-623368ca5c12")
+	)
+	(junction
+		(at 240.03 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faed60b0-520a-4ad7-a7b4-2d176a32e4f8")
+	)
+	(junction
+		(at 87.63 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb2f9bb0-4e17-45d0-96ab-1ba9bf5d4f85")
+	)
+	(junction
+		(at 163.83 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3e7181-f014-472e-b742-bc9f4b6c2258")
+	)
+	(junction
+		(at 201.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcaa8805-0f2f-46d9-9481-42d0b8f1d8d2")
+	)
+	(wire
+		(pts
+			(xy 106.68 17.78) (xy 107.95 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b3c82e-a0c2-4045-9916-3326b2cf5ee0")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d20149-6f6f-4545-b4bf-dc347bbbc4bd")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 163.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0109e2d1-40d1-4115-9658-2c4833ce55ca")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01489749-7f1a-4a7b-83cb-e86b38849cd4")
+	)
+	(wire
+		(pts
+			(xy 219.71 102.87) (xy 218.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0182c5a2-37bd-4bac-8e01-2137b7800f80")
+	)
+	(wire
+		(pts
+			(xy 294.64 64.77) (xy 295.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fe746b-4eed-4d98-819a-30498373b24c")
+	)
+	(wire
+		(pts
+			(xy 309.88 46.99) (xy 316.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a993d1-cc25-482a-82b3-f62f2dafc336")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 181.61 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030bbdcd-c704-4a84-837f-1b1e66d1749a")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d4f81a-f9ff-4d0c-8aa5-be4a9aa282fb")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 241.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052ca5af-aa0f-4873-b418-fb42ffc051c2")
+	)
+	(wire
+		(pts
+			(xy 48.26 146.05) (xy 50.8 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0772848c-4370-4724-91ef-a0b577dcf8a8")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07873128-eebd-456f-8798-56cc8a6ecc11")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b0a155-6e1a-4e68-956b-d3db05c06fb1")
+	)
+	(wire
+		(pts
+			(xy 334.01 64.77) (xy 334.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09da54bb-7373-438f-8baf-43e9de15c2bb")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 143.51 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a954cf6-afd0-4e0d-aaa8-3141424cf272")
+	)
+	(wire
+		(pts
+			(xy 297.18 90.17) (xy 295.91 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0b9517-406a-4f01-ad88-761764abb792")
+	)
+	(wire
+		(pts
+			(xy 349.25 46.99) (xy 355.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c72f332-4b0c-420c-b57f-4aac1f416916")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c9365c2-e57f-41d9-ac99-6e827fb7c855")
+	)
+	(wire
+		(pts
+			(xy 314.96 69.85) (xy 317.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe6b234-7f35-48a7-b8a1-ac5f91f3423f")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe8ce8c-e7e7-46ed-a0cd-cc5901b35765")
+	)
+	(wire
+		(pts
+			(xy 105.41 64.77) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120c43c5-dc41-4e9e-bd07-f65b938a67b8")
+	)
+	(wire
+		(pts
+			(xy 165.1 34.29) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1316720c-0f96-4dad-a1d9-ffb57d7428e8")
+	)
+	(wire
+		(pts
+			(xy 201.93 105.41) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139bcd6f-6cea-4b91-8619-caff50481a24")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c00d86-f696-4767-a17b-1ee2870bf5b1")
+	)
+	(wire
+		(pts
+			(xy 336.55 17.78) (xy 334.01 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159eeec1-e24a-4e58-92ba-bb9588d34f83")
+	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f85f74-7c0c-41cd-8eec-7a84bf54add9")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1687d77d-0141-43e9-9156-9fd0671c9548")
+	)
+	(wire
+		(pts
+			(xy 163.83 29.21) (xy 165.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1721c20f-2fb4-4841-a527-b9a42d78a016")
+	)
+	(wire
+		(pts
+			(xy 201.93 29.21) (xy 203.2 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193e222e-cb1e-4d76-b5e6-feb350786ba5")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194c2f74-8524-4a45-b13c-b1598d2e8c67")
+	)
+	(wire
+		(pts
+			(xy 49.53 87.63) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1996fb18-5507-4984-82bd-15bf95c14849")
+	)
+	(wire
+		(pts
+			(xy 181.61 17.78) (xy 184.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d1ec245-32e1-4812-9f6e-fb0518bf4741")
+	)
+	(wire
+		(pts
+			(xy 257.81 64.77) (xy 257.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa7cef5-c409-4e21-a0c3-b7b4f3b81a8e")
+	)
+	(wire
+		(pts
+			(xy 201.93 143.51) (xy 203.2 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206fb8ac-0aae-4240-98ae-a9a58447d619")
+	)
+	(wire
+		(pts
+			(xy 195.58 46.99) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21912a31-b29f-40ca-8b48-fca2a1e59fa9")
+	)
+	(wire
+		(pts
+			(xy 314.96 31.75) (xy 317.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238960e1-350a-4715-be68-1416a7ee6f44")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239a82b4-f32f-4933-8f1d-83c6387c13d9")
+	)
+	(wire
+		(pts
+			(xy 181.61 128.27) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24270014-eaef-4e2d-b741-6aac34da57ad")
+	)
+	(wire
+		(pts
+			(xy 219.71 128.27) (xy 219.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252c3663-0f97-4f91-be5e-ad7b123be9ec")
+	)
+	(wire
+		(pts
+			(xy 233.68 125.73) (xy 240.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263d9ab8-5f7b-48a0-9c56-aa1b52fc7904")
+	)
+	(wire
+		(pts
+			(xy 240.03 15.24) (xy 260.35 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294c4d60-321d-4ef5-8a07-dbde1cc89afb")
+	)
+	(wire
+		(pts
+			(xy 279.4 34.29) (xy 278.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a208c8b-1be2-4ad6-9797-7eab4b7d24a1")
+	)
+	(wire
+		(pts
+			(xy 257.81 49.53) (xy 259.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a68c1c1-7814-4830-a114-871236196bd3")
+	)
+	(wire
+		(pts
+			(xy 163.83 34.29) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9426e9-c602-43f7-ae89-0c12036ae962")
+	)
+	(wire
+		(pts
+			(xy 104.14 64.77) (xy 105.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba14d4b-6e2a-45e4-981e-bf6e88a8e947")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 240.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c591fb4-96e6-49da-a7d7-94d5e594af2b")
+	)
+	(wire
+		(pts
+			(xy 86.36 31.75) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2caa38a2-2467-4aec-a70e-b61ecb23f3ef")
+	)
+	(wire
+		(pts
+			(xy 87.63 87.63) (xy 106.68 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d59f8a8-eb7e-480d-8dad-e04bac102500")
+	)
+	(wire
+		(pts
+			(xy 336.55 90.17) (xy 334.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d61db95-e7c3-4bee-a149-5a8e2b635806")
+	)
+	(wire
+		(pts
+			(xy 314.96 146.05) (xy 317.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de78f98-9dd3-4d4f-a4a3-c235be7224df")
+	)
+	(wire
+		(pts
+			(xy 240.03 110.49) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3131c092-8eac-4378-9d53-88686bcf5bd1")
+	)
+	(wire
+		(pts
+			(xy 203.2 148.59) (xy 201.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3167a3b4-4d4b-419d-84b8-8144c94c75e2")
+	)
+	(wire
+		(pts
+			(xy 295.91 17.78) (xy 295.91 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3278538b-ffca-44b4-8cae-74a17024b16a")
+	)
+	(wire
+		(pts
+			(xy 295.91 26.67) (xy 294.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32979964-8fa0-4feb-87dc-68c65d641df0")
+	)
+	(wire
+		(pts
+			(xy 49.53 148.59) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a69195-ac8f-4003-bdc5-452dc03eacfe")
+	)
+	(wire
+		(pts
+			(xy 295.91 49.53) (xy 297.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f47532-564d-484d-9e78-610b3d35b85e")
+	)
+	(wire
+		(pts
+			(xy 220.98 90.17) (xy 219.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33fb19fa-54a2-4ce5-9286-03e7f928d974")
+	)
+	(wire
+		(pts
+			(xy 276.86 146.05) (xy 279.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3445349a-6e99-410b-974e-2dccea4aa174")
+	)
+	(wire
+		(pts
+			(xy 278.13 67.31) (xy 278.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c50602-7211-46a2-8004-5778950fcabf")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 241.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ba425e-b8dc-4fc2-838b-2e4a0145b5f9")
+	)
+	(wire
+		(pts
+			(xy 316.23 34.29) (xy 316.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ceb22f-721a-4906-b91b-24bbc09490c8")
+	)
+	(wire
+		(pts
+			(xy 256.54 26.67) (xy 257.81 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d125fe-2240-4c7e-9b4e-8231ebf8fc1d")
+	)
+	(wire
+		(pts
+			(xy 163.83 15.24) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395efaef-43b3-47e8-8c48-ab8d8005efa2")
+	)
+	(wire
+		(pts
+			(xy 240.03 125.73) (xy 259.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fbb44e-5002-4cd6-b57d-b383ca6ffcd9")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3963b9-b18f-4da8-b701-91f940a86e8e")
+	)
+	(wire
+		(pts
+			(xy 317.5 148.59) (xy 316.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a859698-dec9-4601-aa69-69311b959041")
+	)
+	(wire
+		(pts
+			(xy 106.68 26.67) (xy 106.68 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ade6c0a-83a7-43bd-a200-9099741d63e4")
+	)
+	(wire
+		(pts
+			(xy 163.83 125.73) (xy 163.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3caf638c-1b7b-46db-9aec-467d22209016")
+	)
+	(wire
+		(pts
+			(xy 334.01 26.67) (xy 332.74 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0bde35-52dc-4a68-8627-5cdb79ab8b2f")
+	)
+	(wire
+		(pts
+			(xy 279.4 148.59) (xy 278.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee2c19f-ab82-468c-900d-ae6db64a6522")
+	)
+	(wire
+		(pts
+			(xy 86.36 146.05) (xy 88.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43488891-c2e9-4c28-ac9b-fd9733391dc4")
+	)
+	(wire
+		(pts
+			(xy 125.73 29.21) (xy 125.73 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43aa3d64-8dd9-4e8d-b18e-ed7fac4608f5")
+	)
+	(wire
+		(pts
+			(xy 278.13 46.99) (xy 297.18 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fe3262-7c1d-4ccb-aea1-2e318d94768a")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440e99f1-04ea-46aa-9cc8-d8d50dd61b1c")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481243b8-24b9-4ca3-bc62-bf193d0154f5")
+	)
+	(wire
+		(pts
+			(xy 316.23 15.24) (xy 316.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49970439-6a20-4349-91f7-cb72aa923391")
+	)
+	(wire
+		(pts
+			(xy 162.56 146.05) (xy 165.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a58ee7-5935-4558-949c-e55e8ab49b63")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7b5992-d928-4aa4-8ff7-c990fc20b94d")
+	)
+	(wire
+		(pts
+			(xy 278.13 105.41) (xy 279.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b443696-200f-4c96-a2c2-12509a9ac28c")
+	)
+	(wire
+		(pts
+			(xy 273.05 15.24) (xy 278.13 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c42e63e-0268-4719-990e-aebc00e607f1")
+	)
+	(wire
+		(pts
+			(xy 125.73 143.51) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd23d55-95c7-4abd-ba3c-95bc9bbb27de")
+	)
+	(wire
+		(pts
+			(xy 200.66 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4585f0-6f83-45ea-92af-e2c3cc41bd6b")
+	)
+	(wire
+		(pts
+			(xy 195.58 125.73) (xy 201.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6b4930-45d1-4e7e-99c0-6c773bd67543")
+	)
+	(wire
+		(pts
+			(xy 72.39 29.21) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fffc36f-8049-4be2-948f-66cf1b219fc3")
+	)
+	(wire
+		(pts
+			(xy 124.46 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50055189-f9c3-4876-9f1b-ff1c8a63c782")
+	)
+	(wire
+		(pts
+			(xy 295.91 90.17) (xy 295.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fcd700-3882-4252-a297-fb26f88c308b")
+	)
+	(wire
+		(pts
+			(xy 66.04 64.77) (xy 67.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d09447-e7ce-4eea-ac3b-d47a91e8b686")
+	)
+	(wire
+		(pts
+			(xy 163.83 15.24) (xy 184.15 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529fe899-984c-4751-bf52-f9af95d80d53")
+	)
+	(wire
+		(pts
+			(xy 50.8 110.49) (xy 49.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e67be2-8be6-44b5-a1e0-f4bb17df184a")
+	)
+	(wire
+		(pts
+			(xy 219.71 140.97) (xy 218.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52feb264-c1d4-4b11-84ca-c1cabf93bf42")
+	)
+	(wire
+		(pts
+			(xy 125.73 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a199dc-3803-4366-900d-ee6e4ed68dd6")
+	)
+	(wire
+		(pts
+			(xy 67.31 128.27) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cc9cab-35a7-40e6-b2a6-bf6491ee95f9")
+	)
+	(wire
+		(pts
+			(xy 278.13 15.24) (xy 298.45 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557b0d40-1c62-49b5-bf62-2e1c99b5f561")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 201.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571d839f-ee3f-4ee8-b4bb-295370e0c4cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 46.99) (xy 163.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a92a47-502f-4444-9937-40b091d1f1de")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e0a129-4ce5-4416-b34c-6365e579ec7b")
+	)
+	(wire
+		(pts
+			(xy 181.61 49.53) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fa692d-22c4-43e9-86da-be44e3b8cee7")
+	)
+	(wire
+		(pts
+			(xy 295.91 102.87) (xy 294.64 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fac61c-f321-4ebe-8662-f3dc49f98269")
+	)
+	(wire
+		(pts
+			(xy 86.36 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2594cc-9868-4169-bde7-17c2d8fb9584")
+	)
+	(wire
+		(pts
+			(xy 278.13 34.29) (xy 278.13 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6038ea-343e-41b9-9d55-828eb9b175d2")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 49.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602811a0-91c1-4573-a34b-40670d74c146")
+	)
+	(wire
+		(pts
+			(xy 297.18 128.27) (xy 295.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616003b9-6303-4218-96ac-271145f5a568")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6182b794-7762-4615-a557-fa4370749361")
+	)
+	(wire
+		(pts
+			(xy 81.28 125.73) (xy 87.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685ddd1d-8c4d-41b9-aaa9-3debe02cfaef")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 163.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686786c8-d61d-4e25-a792-467f571c45d6")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696f4d5f-1ccd-40f6-8dfb-612ebb1c0777")
+	)
+	(wire
+		(pts
+			(xy 279.4 110.49) (xy 278.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d456e9-0819-471f-8101-0a94da50d1e7")
+	)
+	(wire
+		(pts
+			(xy 271.78 87.63) (xy 278.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69e5a13a-c4db-443c-a5fc-a88af1c6cbb8")
+	)
+	(wire
+		(pts
+			(xy 276.86 31.75) (xy 279.4 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a038f57-0d61-41bf-8361-bfab6d59fb36")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 240.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6708e9-592d-4a7f-9fed-edc74d36522c")
+	)
+	(wire
+		(pts
+			(xy 271.78 46.99) (xy 278.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a95c165-68ed-40d5-89fb-419af0c56195")
+	)
+	(wire
+		(pts
+			(xy 278.13 143.51) (xy 279.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b66ce40-694e-4606-a877-355b10da411e")
+	)
+	(wire
+		(pts
+			(xy 50.8 148.59) (xy 49.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd7ebe9-d56c-4f1d-85d7-0a5146d1ac32")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9586ca-1e60-4dd5-b1c6-306befca0695")
+	)
+	(wire
+		(pts
+			(xy 105.41 128.27) (xy 106.68 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dca3605-8155-46a2-9a26-ef9eedf90334")
+	)
+	(wire
+		(pts
+			(xy 157.48 125.73) (xy 163.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de1918e-2904-4e0b-8681-42980c12f740")
+	)
+	(wire
+		(pts
+			(xy 143.51 26.67) (xy 143.51 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee07b67-ece7-4512-9488-3c06b83d7cf7")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 163.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6faabd61-0616-4980-bb21-4542ce0ad55a")
+	)
+	(wire
+		(pts
+			(xy 66.04 26.67) (xy 72.39 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7109b6cc-2841-4d55-9b95-6524d5ca1747")
+	)
+	(wire
+		(pts
+			(xy 48.26 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72018986-da6f-43ee-8b66-056bb4a4e40a")
+	)
+	(wire
+		(pts
+			(xy 144.78 128.27) (xy 143.51 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728e0495-8845-46e5-9735-6120a642bf9f")
+	)
+	(wire
+		(pts
+			(xy 316.23 148.59) (xy 316.23 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303e180-e1c8-47c1-96b1-3b6339c717a8")
+	)
+	(wire
+		(pts
+			(xy 279.4 72.39) (xy 278.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73380b6d-93b3-4972-8adc-2a96cf17d3a8")
+	)
+	(wire
+		(pts
+			(xy 201.93 105.41) (xy 201.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7477bdc1-63da-41a4-ac8e-d32be987d2aa")
+	)
+	(wire
+		(pts
+			(xy 257.81 140.97) (xy 256.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749c1b4f-3a0c-4540-9e1e-4b08bad9cfc4")
+	)
+	(wire
+		(pts
+			(xy 278.13 29.21) (xy 279.4 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75203b1b-bd64-47ab-8e91-bc982b35c55b")
+	)
+	(wire
+		(pts
+			(xy 241.3 67.31) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7710d3a6-0bc0-4f03-85af-f293cce6edaa")
+	)
+	(wire
+		(pts
+			(xy 259.08 90.17) (xy 257.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77196843-b3f3-4b73-a30a-d787149efbdf")
+	)
+	(wire
+		(pts
+			(xy 349.25 87.63) (xy 355.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7758ad91-b0f6-46e8-b1fb-c16ed3681b93")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7860e5c2-826e-4528-be2c-266951502556")
+	)
+	(wire
+		(pts
+			(xy 334.01 17.78) (xy 334.01 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7871bdb3-ec45-4d88-96f3-ca831ea85309")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f8388d-b20f-49af-98bf-20ed75f5ca60")
+	)
+	(wire
+		(pts
+			(xy 38.1 34.29) (xy 38.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baad93f-4fdf-464d-87c1-7032fae0f10a")
+	)
+	(wire
+		(pts
+			(xy 158.75 15.24) (xy 163.83 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c44f7ad-eb5e-4c6c-8a90-258ebd8ce3ea")
+	)
+	(wire
+		(pts
+			(xy 125.73 15.24) (xy 120.65 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cba7d43-4fa2-43be-8ebe-81480065c96a")
+	)
+	(wire
+		(pts
+			(xy 257.81 128.27) (xy 257.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbcefbe-ad13-43b3-a938-9f8a06d0b46d")
+	)
+	(wire
+		(pts
+			(xy 316.23 87.63) (xy 336.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfb28eb-f5f0-403a-b79a-0f9b5c050754")
+	)
+	(wire
+		(pts
+			(xy 240.03 46.99) (xy 240.03 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3030ef-de8e-46f5-91c5-c5b241e01a05")
+	)
+	(wire
+		(pts
+			(xy 316.23 72.39) (xy 316.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e71a5f1-3c7e-42b5-b499-7ca1cc7cd12e")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 68.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e97372c-071e-4f20-843c-7f50aed9fda6")
+	)
+	(wire
+		(pts
+			(xy 314.96 107.95) (xy 317.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f54e108-993f-46be-8f43-b9baf771c445")
+	)
+	(wire
+		(pts
+			(xy 163.83 143.51) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801f8751-15cb-4675-b6a5-f59a4668c4e4")
+	)
+	(wire
+		(pts
+			(xy 200.66 146.05) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81720fd0-6572-4efa-b673-ce92eacc6dee")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820122b3-75e5-4096-8e13-2c0aec5f10e6")
+	)
+	(wire
+		(pts
+			(xy 278.13 110.49) (xy 278.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820fc182-4703-48bc-a348-14dbce3be946")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829210ea-59c8-44af-b3d0-1c754bd95e28")
+	)
+	(wire
+		(pts
+			(xy 125.73 15.24) (xy 146.05 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ac2406-745b-49f0-8441-d470b5e6d3d1")
+	)
+	(wire
+		(pts
+			(xy 45.72 125.73) (xy 49.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843c25a0-27b4-4594-a44d-1e22e4ba585b")
+	)
+	(wire
+		(pts
+			(xy 162.56 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8473b504-b7b5-4e54-bcac-6053e7cf358c")
+	)
+	(wire
+		(pts
+			(xy 72.39 26.67) (xy 72.39 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84825339-f215-4f3a-ab67-9bef3ef3bc40")
+	)
+	(wire
+		(pts
+			(xy 309.88 87.63) (xy 316.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d0a191-fd13-4681-a2bd-85c84b8cb211")
+	)
+	(wire
+		(pts
+			(xy 87.63 143.51) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8594f8a7-9ac2-42f1-be36-a9683abdbada")
+	)
+	(wire
+		(pts
+			(xy 201.93 15.24) (xy 222.25 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860fcf0d-a73f-4166-a5df-083388bf6d0c")
+	)
+	(wire
+		(pts
+			(xy 127 34.29) (xy 125.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d6dba8-cfc6-49d5-bdbe-d347949a3e59")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 50.8 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87225e59-f497-4590-8791-dfbad76f12ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 64.77) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a50f08e-2ec4-46b7-be22-7465a3b77319")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 259.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a526d23-d33e-4a4c-bc8f-a179e0b380aa")
+	)
+	(wire
+		(pts
+			(xy 48.26 31.75) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac66db5-7d95-45d8-a7d8-4b1edf33f23e")
+	)
+	(wire
+		(pts
+			(xy 241.3 110.49) (xy 240.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be0e775-2a0d-44d8-9a36-07e0bbd459f5")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bed4179-0e83-4f26-bdeb-7d8093e05685")
+	)
+	(wire
+		(pts
+			(xy 125.73 125.73) (xy 144.78 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c99b87b-c4e4-43e5-aea9-e3799adefba1")
+	)
+	(wire
+		(pts
+			(xy 298.45 17.78) (xy 295.91 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cac20b6-a678-4013-87fa-bb470145b251")
+	)
+	(wire
+		(pts
+			(xy 196.85 15.24) (xy 201.93 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd0de4e-50de-4382-adc4-ffb0c27784eb")
+	)
+	(wire
+		(pts
+			(xy 106.68 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce2320d-3b69-488f-bf4b-d2cc5d5593ac")
+	)
+	(wire
+		(pts
+			(xy 163.83 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d979bcd-6b94-4104-88c8-c7422654edb6")
+	)
+	(wire
+		(pts
+			(xy 276.86 69.85) (xy 279.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f10f751-3f86-4671-b97d-ad45e01a4c98")
+	)
+	(wire
+		(pts
+			(xy 240.03 34.29) (xy 240.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f82b3ff-159f-40fa-ad9b-0be591551057")
+	)
+	(wire
+		(pts
+			(xy 201.93 148.59) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc7fe75-a9a3-4d1f-a8d3-441a262f830c")
+	)
+	(wire
+		(pts
+			(xy 87.63 125.73) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9020ac1d-6474-47ab-a392-af1f54c3b3d0")
+	)
+	(wire
+		(pts
+			(xy 201.93 125.73) (xy 220.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90396ca0-fd28-481e-9a6c-d3dd2956fa52")
+	)
+	(wire
+		(pts
+			(xy 201.93 125.73) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917f67f9-ae8b-4548-8320-c49f3244b12d")
+	)
+	(wire
+		(pts
+			(xy 165.1 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925fa2c9-f5e6-4166-9a02-79a71df76fe5")
+	)
+	(wire
+		(pts
+			(xy 143.51 140.97) (xy 142.24 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928e99e9-6368-44cc-8f05-9f4bb9ef5c2e")
+	)
+	(wire
+		(pts
+			(xy 142.24 102.87) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d197b3-bfee-4427-b9f0-83cad13bdfb9")
+	)
+	(wire
+		(pts
+			(xy 278.13 148.59) (xy 278.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94688a20-cbc7-4abd-8cd4-a09119991089")
+	)
+	(wire
+		(pts
+			(xy 45.72 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9513c780-347d-4876-b3ba-431caae8efc0")
+	)
+	(wire
+		(pts
+			(xy 125.73 72.39) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b5ab45-a572-407e-a2d1-9f5d323dc1a2")
+	)
+	(wire
+		(pts
+			(xy 278.13 87.63) (xy 297.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98434ec6-fd70-4f7e-a748-5c49e048456b")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 143.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bb735c-685f-4286-a262-cbbc22b481a4")
+	)
+	(wire
+		(pts
+			(xy 49.53 46.99) (xy 68.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994e7811-7028-4928-b480-a47c162ff3d0")
+	)
+	(wire
+		(pts
+			(xy 81.28 46.99) (xy 87.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7f3e22-47e0-4c0a-a547-5c388a3063f4")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 240.03 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d56c4b6-079a-40b6-ac19-6bfd424750c3")
+	)
+	(wire
+		(pts
+			(xy 316.23 143.51) (xy 317.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e944e05-37dd-4af2-aa6c-46fd724676c6")
+	)
+	(wire
+		(pts
+			(xy 317.5 110.49) (xy 316.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a331fa85-66b4-4741-a166-050336972101")
+	)
+	(wire
+		(pts
+			(xy 125.73 148.59) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3445f32-e08d-4f87-8c02-215995063897")
+	)
+	(wire
+		(pts
+			(xy 104.14 140.97) (xy 105.41 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38a660c-0b75-4a7e-ad10-24ee272c0434")
+	)
+	(wire
+		(pts
+			(xy 219.71 49.53) (xy 220.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c7ec7d-fcf7-4625-acf6-b26208a69787")
+	)
+	(wire
+		(pts
+			(xy 143.51 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d6f7fe-4fd1-408a-9cb8-1baa5055f525")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a511c7f1-33c8-4f38-ad6d-ee06497f71d1")
+	)
+	(wire
+		(pts
+			(xy 278.13 72.39) (xy 278.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b1ef78-6068-49f6-b54a-e90903fee4a2")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 125.73 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fc8c10-8170-4091-8694-631e010d8759")
+	)
+	(wire
+		(pts
+			(xy 295.91 128.27) (xy 295.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a646872c-c487-4822-a1d0-1de1f48086af")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6c697c7-ca10-4abc-a960-82e8bdae2344")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 182.88 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a714829f-3b50-4d2b-9399-52539b7c659f")
+	)
+	(wire
+		(pts
+			(xy 87.63 87.63) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e086dd-0260-40dc-b8da-8b6a8e8126d8")
+	)
+	(wire
+		(pts
+			(xy 38.1 29.21) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82c6d16-345d-4fc0-b4f7-b255ecbef791")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cdb9f1-9d74-4b3c-9ad4-7ad2cab24bd4")
+	)
+	(wire
+		(pts
+			(xy 316.23 29.21) (xy 317.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0ecb23-48b8-4e87-aabd-37079ac16624")
+	)
+	(wire
+		(pts
+			(xy 124.46 31.75) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbe3175-9aa9-4413-95ff-2c45486ae011")
+	)
+	(wire
+		(pts
+			(xy 334.01 102.87) (xy 332.74 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2ea66e-46b9-43d0-a7a0-18f616526610")
+	)
+	(wire
+		(pts
+			(xy 349.25 15.24) (xy 355.6 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb2978a-016c-4bd7-9531-6b3ce0df3ff9")
+	)
+	(wire
+		(pts
+			(xy 240.03 67.31) (xy 240.03 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adae9bd2-19a8-45c8-b44c-8d907b29975f")
+	)
+	(wire
+		(pts
+			(xy 219.71 64.77) (xy 219.71 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae773f1e-4bff-476f-85bd-45398158f4ac")
+	)
+	(wire
+		(pts
+			(xy 234.95 15.24) (xy 240.03 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef4ae5a-8235-45ff-9e29-4e2f79dfc9a9")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b005d2e4-04c3-4984-9cde-330af4f05db5")
+	)
+	(wire
+		(pts
+			(xy 316.23 105.41) (xy 316.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0460487-3785-4d58-853e-c11eec081a12")
+	)
+	(wire
+		(pts
+			(xy 240.03 15.24) (xy 240.03 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0686d88-cd82-44ec-85cd-268a05805f1a")
+	)
+	(wire
+		(pts
+			(xy 87.63 46.99) (xy 87.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0962656-7cdc-403c-b846-b7d90cc6fffa")
+	)
+	(wire
+		(pts
+			(xy 311.15 15.24) (xy 316.23 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09c1190-058c-450c-a13b-68cbe33d4132")
+	)
+	(wire
+		(pts
+			(xy 278.13 105.41) (xy 278.13 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14443b0-4e63-4c6c-970b-10a440ac9b82")
+	)
+	(wire
+		(pts
+			(xy 200.66 31.75) (xy 203.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b5bd42-19eb-4379-8747-34cc08527944")
+	)
+	(wire
+		(pts
+			(xy 163.83 125.73) (xy 182.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dba6bc-b80a-4be1-b80a-3b694436d69f")
+	)
+	(wire
+		(pts
+			(xy 49.53 67.31) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39acd16-3f09-4c18-87fb-4d96521d74f9")
+	)
+	(wire
+		(pts
+			(xy 67.31 128.27) (xy 68.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b563835d-dd63-429e-8a2f-53466429b165")
+	)
+	(wire
+		(pts
+			(xy 203.2 34.29) (xy 201.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bcdcd6-e404-48eb-9c58-0a2408be9c95")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e86f52-e732-4c91-8678-91792130ad1c")
+	)
+	(wire
+		(pts
+			(xy 233.68 46.99) (xy 240.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b639116b-6792-49a5-9b22-8517d63f2f25")
+	)
+	(wire
+		(pts
+			(xy 316.23 15.24) (xy 336.55 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b641b16e-02bf-4ada-ae26-e342b41c16b5")
+	)
+	(wire
+		(pts
+			(xy 125.73 34.29) (xy 125.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b719e684-e1a0-4f29-bf60-a806e30d4c02")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ca86e1-e276-4792-aac5-b65b23133742")
+	)
+	(wire
+		(pts
+			(xy 72.39 15.24) (xy 107.95 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82fc943-424d-47ca-960a-67c19dff5226")
+	)
+	(wire
+		(pts
+			(xy 163.83 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8383c65-6081-433e-a7f3-165d98b3b73b")
+	)
+	(wire
+		(pts
+			(xy 49.53 72.39) (xy 49.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9cc0372-1cb8-4b08-ab10-bfd433fad6f2")
+	)
+	(wire
+		(pts
+			(xy 182.88 128.27) (xy 181.61 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb035e9d-c542-4f66-aaf5-41cc70b004de")
+	)
+	(wire
+		(pts
+			(xy 87.63 29.21) (xy 72.39 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb45622e-95e0-455d-bb6e-2066cb9aea72")
+	)
+	(wire
+		(pts
+			(xy 276.86 107.95) (xy 279.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9ebec6-c140-4028-8432-2634a8699687")
+	)
+	(wire
+		(pts
+			(xy 219.71 90.17) (xy 219.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdeb079-ee68-4b6e-beef-cbc5e0e0526e")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 50.8 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde21026-d94e-4de6-8184-d75ac590ede3")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c191182f-9dad-4c66-9a2f-889491df6a62")
+	)
+	(wire
+		(pts
+			(xy 316.23 67.31) (xy 316.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cf3d3d-2779-4c74-a00c-e8cf070fb572")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c486b6d1-091a-42b6-b34d-75680759db43")
+	)
+	(wire
+		(pts
+			(xy 105.41 140.97) (xy 105.41 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bc702d-9ae7-45e7-8123-9c0ca90893c3")
+	)
+	(wire
+		(pts
+			(xy 66.04 140.97) (xy 67.31 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52b32ba-2e47-4496-9d5e-8545f51cb09d")
+	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 87.63 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7890785-e384-4840-873e-79b42eac6f4b")
+	)
+	(wire
+		(pts
+			(xy 104.14 26.67) (xy 106.68 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c812ac12-da3a-4117-8141-537fa82582bb")
+	)
+	(wire
+		(pts
+			(xy 238.76 69.85) (xy 241.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c889088b-c267-4015-b9af-5325ca9ae01d")
+	)
+	(wire
+		(pts
+			(xy 201.93 110.49) (xy 201.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92b26d9-5ed1-4914-868e-f4d377107f5a")
+	)
+	(wire
+		(pts
+			(xy 88.9 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc17a99e-0e50-4406-a944-41fea6ef0df2")
+	)
+	(wire
+		(pts
+			(xy 125.73 105.41) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1cf03e-fe27-4556-81ff-f9bf6eb0e023")
+	)
+	(wire
+		(pts
+			(xy 332.74 64.77) (xy 334.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc480303-b09d-4249-90df-a6a9750e5e78")
+	)
+	(wire
+		(pts
+			(xy 201.93 67.31) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccfc3d5-60b5-41d3-bce1-8d6c36e1721e")
+	)
+	(wire
+		(pts
+			(xy 119.38 125.73) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeffb54-abb9-4d9e-879e-1a04cede40b4")
+	)
+	(wire
+		(pts
+			(xy 201.93 72.39) (xy 201.93 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf44953b-1b90-4055-bc8d-0a9475491b61")
+	)
+	(wire
+		(pts
+			(xy 316.23 110.49) (xy 316.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc8de38-39c0-4c23-9cc0-7bd3b381e16d")
+	)
+	(wire
+		(pts
+			(xy 334.01 90.17) (xy 334.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d00d8689-1b8c-4bd2-a7dc-2684cfa864dd")
+	)
+	(wire
+		(pts
+			(xy 87.63 148.59) (xy 87.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03f8ad3-8ae3-494e-8f00-c6159480d2d8")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09d9252-fbc4-412f-8b25-01d341d422c8")
+	)
+	(wire
+		(pts
+			(xy 317.5 34.29) (xy 316.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d328461d-773b-4666-bbe6-d15aa191d9e3")
+	)
+	(wire
+		(pts
+			(xy 48.26 107.95) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4224685-4783-4434-a302-1b06f560c654")
+	)
+	(wire
+		(pts
+			(xy 233.68 87.63) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56b1e3f-5e11-4238-859f-eb848a6ed30f")
+	)
+	(wire
+		(pts
+			(xy 88.9 148.59) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58e7819-2839-4291-bbb2-d33710503be5")
+	)
+	(wire
+		(pts
+			(xy 200.66 69.85) (xy 203.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d631d142-c3ee-4a2c-b250-1fa7c864acd6")
+	)
+	(wire
+		(pts
+			(xy 180.34 26.67) (xy 181.61 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6502921-fe1b-43a1-b5df-ff368e0d9f59")
+	)
+	(wire
+		(pts
+			(xy 201.93 87.63) (xy 220.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cb53b6-3532-47c6-b300-ce77c519940c")
+	)
+	(wire
+		(pts
+			(xy 181.61 64.77) (xy 181.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d71726-8f8c-4d65-9026-a4aa4e4dab15")
+	)
+	(wire
+		(pts
+			(xy 316.23 67.31) (xy 317.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d725de26-c377-4b20-8e15-2df92d993698")
+	)
+	(wire
+		(pts
+			(xy 142.24 26.67) (xy 143.51 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d789ec3a-9dfb-4fb3-b03f-34b814f22027")
+	)
+	(wire
+		(pts
+			(xy 241.3 34.29) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b3b188-a212-4cbb-8dad-fa146f942c85")
+	)
+	(wire
+		(pts
+			(xy 295.91 64.77) (xy 295.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9201fdf-010a-4aaf-ba3a-b90a2faacf1f")
+	)
+	(wire
+		(pts
+			(xy 162.56 107.95) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db496c4d-d1f8-4d82-b9c8-7a4f9f192707")
+	)
+	(wire
+		(pts
+			(xy 271.78 125.73) (xy 278.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc06fb42-18bc-4d01-91ba-bd408e7f1889")
+	)
+	(wire
+		(pts
+			(xy 317.5 72.39) (xy 316.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfd4f3c-0c59-4bbd-8ed7-abd9dda192a6")
+	)
+	(wire
+		(pts
+			(xy 257.81 90.17) (xy 257.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd120f6d-6a8b-49bc-a1df-f68d773dfc6e")
+	)
+	(wire
+		(pts
+			(xy 67.31 49.53) (xy 68.58 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb6c209-9b77-4310-817f-04df77f903b1")
+	)
+	(wire
+		(pts
+			(xy 181.61 140.97) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9709f9-1944-4ca5-a04c-b2011b6ef318")
+	)
+	(wire
+		(pts
+			(xy 125.73 29.21) (xy 127 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debeed8b-9455-46bc-a5ca-953ddbafe020")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 201.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1affa11-8879-4585-b757-1277874e5e13")
+	)
+	(wire
+		(pts
+			(xy 316.23 125.73) (xy 309.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e17ad7-229d-4be1-9d43-26295128794c")
+	)
+	(wire
+		(pts
+			(xy 257.81 17.78) (xy 260.35 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b51b37-cb92-4591-afbf-6f95abf69d63")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c6b78f-8dae-4dfb-b757-a2bebd36f68d")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d9b6ac-9428-41a3-aeb8-bd49887db2a2")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e623ee74-214e-4f57-976f-6322c06296d3")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ddebc7-c3c3-4df0-b6db-923cdf6467be")
+	)
+	(wire
+		(pts
+			(xy 334.01 49.53) (xy 336.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89c2973-3781-465c-b3f8-616c49df9649")
+	)
+	(wire
+		(pts
+			(xy 257.81 26.67) (xy 257.81 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf0d1dd-98ac-4eb7-917d-cca2b8df5683")
+	)
+	(wire
+		(pts
+			(xy 143.51 49.53) (xy 144.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb89ed3d-64af-4358-9eb9-a42476feec63")
+	)
+	(wire
+		(pts
+			(xy 316.23 46.99) (xy 336.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6aba6f-9b1c-4799-af57-c53ae1cd1623")
+	)
+	(wire
+		(pts
+			(xy 241.3 148.59) (xy 240.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbcf55b-766d-42ed-a392-2a84ba9f7881")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed80f77c-eba4-4fc4-9b0c-8c46fc890484")
+	)
+	(wire
+		(pts
+			(xy 240.03 105.41) (xy 241.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed893fd9-23e1-42a9-88b0-f93f68e738fd")
+	)
+	(wire
+		(pts
+			(xy 240.03 29.21) (xy 241.3 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edcc874d-1f45-432f-b182-3e54f35a0b94")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd04b62-0a9f-49f3-ba87-fa2e4dc4e269")
+	)
+	(wire
+		(pts
+			(xy 278.13 29.21) (xy 278.13 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1b69b6-20ea-4c84-9451-2b9180dad362")
+	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eebb9cae-b451-485c-aa7e-6adac3b3fcb9")
+	)
+	(wire
+		(pts
+			(xy 278.13 67.31) (xy 279.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee3c85c-c5b3-4f78-bffe-62d8cfebcdcd")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef23862c-717c-47b3-9ef9-183dc3364d96")
+	)
+	(wire
+		(pts
+			(xy 259.08 128.27) (xy 257.81 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4233c1-afa1-4ab8-823f-ebefe821f17a")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef60ed7f-bc9a-4ab7-8792-82f7222feaad")
+	)
+	(wire
+		(pts
+			(xy 256.54 64.77) (xy 257.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef703b77-b1b2-4be3-b2c8-15cd7598dbd1")
+	)
+	(wire
+		(pts
+			(xy 220.98 128.27) (xy 219.71 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef87f098-3f2c-467f-ba92-7dca809bd533")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa08b22-3827-4878-b3c2-5ebaa030c80d")
+	)
+	(wire
+		(pts
+			(xy 181.61 26.67) (xy 181.61 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f070b993-e85a-4f96-8ecb-53116376b7a0")
+	)
+	(wire
+		(pts
+			(xy 295.91 140.97) (xy 294.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f203085a-d4e3-4e04-b3d8-0a73ba3b8a80")
+	)
+	(wire
+		(pts
+			(xy 240.03 46.99) (xy 259.08 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f27a2b2a-3478-44d2-8a08-7cfd8476c303")
+	)
+	(wire
+		(pts
+			(xy 238.76 146.05) (xy 241.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f295273c-bdc5-4801-ad8a-4629ecedd9d9")
+	)
+	(wire
+		(pts
+			(xy 316.23 105.41) (xy 317.5 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33c768a-eadc-4e85-bbc7-74f46e09ea61")
+	)
+	(wire
+		(pts
+			(xy 143.51 17.78) (xy 146.05 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f356c1fe-806a-4567-ac2c-b842315ea429")
+	)
+	(wire
+		(pts
+			(xy 278.13 125.73) (xy 297.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48b8441-2f59-489f-8f96-b703440e67ae")
+	)
+	(wire
+		(pts
+			(xy 49.53 143.51) (xy 50.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a0f982-af87-458e-84c5-1fc4affdd433")
+	)
+	(wire
+		(pts
+			(xy 238.76 107.95) (xy 241.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f4a2b3-edb7-482a-96c1-55cfdb7d8387")
+	)
+	(wire
+		(pts
+			(xy 181.61 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5915366-82f3-4758-a174-34ad396e74c7")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67a5da7-baad-413a-9313-d0b22882b4ea")
+	)
+	(wire
+		(pts
+			(xy 316.23 143.51) (xy 316.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e266f1-d0fb-4b4b-9479-2ca3d4da7cbd")
+	)
+	(wire
+		(pts
+			(xy 45.72 87.63) (xy 49.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa24235c-464d-430e-97b1-48a8a73c7c4e")
+	)
+	(wire
+		(pts
+			(xy 201.93 46.99) (xy 220.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7425b8-7529-43f6-bcd2-3b1d6059d200")
+	)
+	(wire
+		(pts
+			(xy 278.13 143.51) (xy 278.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0d5852-cc39-41ec-af41-abe78508c732")
+	)
+	(wire
+		(pts
+			(xy 218.44 64.77) (xy 219.71 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc75f194-4d38-4be9-b696-bf856635c4de")
+	)
+	(wire
+		(pts
+			(xy 257.81 102.87) (xy 256.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3f42ef-52fe-4c89-ab5b-21c9e294b994")
+	)
+	(wire
+		(pts
+			(xy 163.83 46.99) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe02a13d-71df-4363-bfb6-eb0594738db7")
+	)
+	(wire
+		(pts
+			(xy 50.8 34.29) (xy 38.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6fb9b6-98cf-4644-9537-348962a51c3d")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee649c8-53c3-48c9-b4a4-de7401baebd6")
+	)
+	(wire
+		(pts
+			(xy 49.53 110.49) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1bfc1d-0be6-473c-994a-c8ad3d002867")
+	)
+	(wire
+		(pts
+			(xy 201.93 15.24) (xy 201.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff56c21c-4747-4b71-8480-89fed25cef5b")
+	)
+	(global_label "clk"
+		(shape input)
+		(at 124.46 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00b2132d-1b73-4d62-92b5-42178d549505")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 86.36 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0401c849-626b-4124-9ae9-f1722dceae5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 200.66 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05a707c0-38cf-460a-bcc5-78b9672113af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 124.46 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1389d479-2724-4c8d-abc9-78ec686d68e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 314.96 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b25c934-437a-4a03-989c-54cbe22cc8f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.1929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 238.76 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c71dd59-be90-4d3a-a48b-5ec177152f5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 200.66 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ea8ac1c-5a5b-4a60-b746-d36dbc459cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 276.86 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a03a5dd-601e-4356-acdd-4cd1ae170861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.0929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 48.26 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e23d970-555c-437c-8459-07e69390441b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 124.46 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f97a577-8300-4b4f-b2f4-e987de9b6173")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 314.96 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "308b4437-a501-4916-8341-019be0711abc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.1929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 86.36 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30fd5955-8694-463c-9f05-92bb5ec62608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 238.76 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34073f6b-dffa-4dc1-80df-0757f2b4286c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 48.26 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36071eb9-c51d-480c-b9e3-2a82de5a0b66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 238.76 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "377602ec-ae60-415e-9173-f87dac56f10f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap1"
+		(shape output)
+		(at 355.6 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "417988bc-2bca-426b-afa7-6ebf9304a1c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.2094 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap2"
+		(shape input)
+		(at 45.72 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "497b87f0-85d9-420d-8821-b5cba465a8fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.1106 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 162.56 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66a8fbc5-b4e6-4038-93ac-4be58322db48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 162.56 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d9bb461-ac3f-4b85-8ff0-d77f371b515d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 86.36 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70bf8731-95c9-43d4-9fb0-2820bd5ebefb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 48.26 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79ceb149-baf9-4522-9a5b-6695ab1e3b76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 48.26 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c92ef48-21a8-488f-81f2-defdd9508fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.4929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap0"
+		(shape input)
+		(at 45.72 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83d4f6ef-6af3-452a-a34e-8e78f369e113")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.1106 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 124.46 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85dd5425-2957-4cec-9a4b-4fc2d2777684")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 162.56 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8834d87b-9745-4edf-85fb-996cdebc9465")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 314.96 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a078e43-cb32-490b-b586-721c9bfce8cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.1929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 276.86 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "934a0ca2-62e6-487e-a1c9-3c48ec37b995")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.0929 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 86.36 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93790825-2992-4ad2-87b3-a9879ff55552")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.5929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap0"
+		(shape output)
+		(at 355.6 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae469fdd-b205-460a-b6b8-c74b5fc46193")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.2094 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 238.76 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0fca5db-c420-4488-8f64-6bd95e4b9e65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.9929 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap2"
+		(shape output)
+		(at 355.6 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d05bdd1b-ec79-4f26-a134-6b5bfaa91c98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 364.2094 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 162.56 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d626c8c6-9472-48e8-83e2-28b91aa7ada3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 276.86 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d916d5bd-4d43-4d83-ab05-4a3cfc3fef65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.0929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 200.66 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0c8e4f2-e249-496e-b87f-55fb08a57388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8929 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 200.66 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb7b7941-b8c0-43d3-b545-22f8b1b4860c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 314.96 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3dbecfc-6131-48b9-a88a-d21dc9299af2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.1929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "clk"
+		(shape input)
+		(at 276.86 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7c33942-b90b-4985-88a3-f33fd29b7dbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.0929 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "wrap1"
+		(shape input)
+		(at 45.72 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fea55835-9412-4572-b857-de25a64bdccf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.1106 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 38.1 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e05accd-5e05-41c7-ad1f-ea66ac0e2abc")
+		(property "Reference" "#PWR01"
+			(at 38.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 38.1 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bcbf53-2b9d-4cc6-a205-b5d90104e40c")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "092c21c1-2482-4ab9-8d75-3a38f7436c67")
+		(property "Sheetname" "jk-flipflop9"
+			(at 317.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 317.5 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 332.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "af4c6426-2b9b-4482-83c8-323058b19c58")
+		)
+		(pin "Q" output
+			(at 332.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6a6019f-3430-4f8c-ac0c-e1b30e03f24f")
+		)
+		(pin "k" input
+			(at 317.5 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c36383bd-cf18-45f6-a209-ea1589046377")
+		)
+		(pin "reset" input
+			(at 317.5 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b55590fe-86f8-4912-ac0b-dbe4fc404f5f")
+		)
+		(pin "clk" input
+			(at 317.5 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "31071e70-f7a6-4215-a379-cdfc0584803d")
+		)
+		(pin "j" input
+			(at 317.5 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "622685ab-6a26-481d-935e-7b1e03df7e2a")
+		)
+		(pin "preset" input
+			(at 317.5 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b00d21c-47da-451e-b1fa-28b1ef1cfec3")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a60445c-af02-42fa-90d3-017e85f877ae")
+		(property "Sheetname" "jk-flipflop18"
+			(at 50.8 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 50.8 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85e6d0d5-4a89-4ff3-857c-5a662e197a1b")
+		)
+		(pin "Q" output
+			(at 66.04 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1220db75-e5b3-43fa-bed8-f546c5879239")
+		)
+		(pin "k" input
+			(at 50.8 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "983ee4c2-eb5b-46dd-a43f-0fb8a0a47ea3")
+		)
+		(pin "reset" input
+			(at 50.8 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "07d3f741-3b16-4a8a-aab5-b7017338cbbc")
+		)
+		(pin "clk" input
+			(at 50.8 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe919e0c-f647-4026-aaf0-05acd2c0d5cd")
+		)
+		(pin "j" input
+			(at 50.8 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "107859ec-13ed-402c-bf1b-ba78f34c7abd")
+		)
+		(pin "preset" input
+			(at 50.8 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b9ba464-b707-4842-a600-5eb0605395d2")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "100b6eaf-b63d-45ad-bdb0-e5067aca28de")
+		(property "Sheetname" "and2"
+			(at 184.15 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 184.15 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 196.85 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1f8aabcd-6613-4608-95f5-2803c428a888")
+		)
+		(pin "in0" input
+			(at 184.15 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f9a8dc8-ddec-45cf-9371-db857b9ccc1a")
+		)
+		(pin "in1" input
+			(at 184.15 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "349f16d8-9e24-499c-9fb7-45748defb55a")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "36")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "110c949d-6815-40bd-9ab6-e3415ea97894")
+		(property "Sheetname" "jk-flipflop6"
+			(at 203.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 203.2 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 218.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0af0459f-a6de-4de0-893e-cc94e4a0d6b7")
+		)
+		(pin "Q" output
+			(at 218.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b84ea0de-2953-470b-b560-0d69c4a6bf99")
+		)
+		(pin "k" input
+			(at 203.2 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "30c8775d-d932-4875-8ad7-4e816f966b44")
+		)
+		(pin "reset" input
+			(at 203.2 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c01fbe7-6316-44dd-9588-f87bd1518e00")
+		)
+		(pin "clk" input
+			(at 203.2 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87ddef18-ad8b-4664-9ad7-404a4567d8e9")
+		)
+		(pin "j" input
+			(at 203.2 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06cd21c3-3ff6-4151-a6fa-aef0b14e1f93")
+		)
+		(pin "preset" input
+			(at 203.2 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b2e008b1-4365-4089-a0df-6844fafa055f")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "179ee14e-b096-41c2-9219-59851fe81b5d")
+		(property "Sheetname" "jk-flipflop23"
+			(at 241.3 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 241.3 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 256.54 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff8589b0-5ecf-4523-86e3-b75d28c985ad")
+		)
+		(pin "Q" output
+			(at 256.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "565d0a51-1231-4958-8cc7-7b9e6598e2bc")
+		)
+		(pin "k" input
+			(at 241.3 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a6be246-077a-4d14-8b56-bcd27b6ca1e6")
+		)
+		(pin "reset" input
+			(at 241.3 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79b4afcc-7f9b-414d-97e3-fda3fd649622")
+		)
+		(pin "clk" input
+			(at 241.3 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bad5d4fa-39ba-48d9-85df-68200fe59895")
+		)
+		(pin "j" input
+			(at 241.3 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "671e2583-d000-49d2-af3e-87d92bb1c7e4")
+		)
+		(pin "preset" input
+			(at 241.3 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff43e25d-9f8e-4a1f-94b3-b50aba42e332")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3272cf9d-6cf0-4c5c-be87-52acb90d3ae4")
+		(property "Sheetname" "and16"
+			(at 106.68 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 106.68 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "791555df-c76b-4e13-8085-e4119c209b85")
+		)
+		(pin "in0" input
+			(at 106.68 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37b6de1d-4d6e-4452-b0aa-6eb227b42399")
+		)
+		(pin "in1" input
+			(at 106.68 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3eddcf18-dece-4e71-9edd-a2544a1a07a6")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "50")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36097baf-c2f8-426b-aad4-373661a2f663")
+		(property "Sheetname" "jk-flipflop8"
+			(at 279.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 279.4 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 294.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cbe5d67-54ab-4c3b-8c20-88a11ccee365")
+		)
+		(pin "Q" output
+			(at 294.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5995ac12-5719-4152-98f2-d3bfb2fe3cdc")
+		)
+		(pin "k" input
+			(at 279.4 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96537fdb-e64f-4bce-a06b-04e649f4a6ee")
+		)
+		(pin "reset" input
+			(at 279.4 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fb318db-6ec9-47f3-af17-2c5d93368cb7")
+		)
+		(pin "clk" input
+			(at 279.4 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "86770ae1-9114-4330-a6b4-8176dc97ddf4")
+		)
+		(pin "j" input
+			(at 279.4 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6aefc8bf-bf52-46c6-965c-75425c7ab320")
+		)
+		(pin "preset" input
+			(at 279.4 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e058524-8da7-4577-8608-fdedfd498c84")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.18 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "476e73ce-f8f3-4fcd-86a9-62fd07e8d1a6")
+		(property "Sheetname" "and21"
+			(at 297.18 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 297.18 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 309.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a2eaa632-8fe1-4257-8ab5-bbcd01507739")
+		)
+		(pin "in0" input
+			(at 297.18 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6d02d78-2cbe-4173-b397-d1ee16dc3d3c")
+		)
+		(pin "in1" input
+			(at 297.18 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ddb78403-b430-48d3-b084-247ec456b5e5")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "55")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c7102fb-c78c-4a76-b78c-1ea78638df43")
+		(property "Sheetname" "jk-flipflop29"
+			(at 165.1 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 180.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "912cbb18-06f0-4905-915a-1d4941c85cf2")
+		)
+		(pin "Q" output
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e43da72-9db1-4747-ac30-8afc090ab88b")
+		)
+		(pin "k" input
+			(at 165.1 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93ccf314-525a-470f-a2f1-adbf79c44df3")
+		)
+		(pin "reset" input
+			(at 165.1 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe5a8a9d-bfd9-4ccd-a75f-44e821e30da9")
+		)
+		(pin "clk" input
+			(at 165.1 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "08aa486f-9b23-4f77-bbd9-acaef55b3f20")
+		)
+		(pin "j" input
+			(at 165.1 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f93d52f6-982d-405e-818e-7c22e6d38216")
+		)
+		(pin "preset" input
+			(at 165.1 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c028158-bee8-4e9b-a348-112638f2d3df")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260.35 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4dc18025-84cd-4007-a24e-278adeb884f6")
+		(property "Sheetname" "and4"
+			(at 260.35 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 260.35 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 273.05 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26db115f-fe70-4064-8465-e4a501ffdaec")
+		)
+		(pin "in0" input
+			(at 260.35 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6efea3a9-e60b-4354-b353-fd46bc115169")
+		)
+		(pin "in1" input
+			(at 260.35 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4fd5e3f-c9c0-45c8-ad11-57cce21165fb")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "38")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "539f0c99-2d96-4f86-8e20-d10e19eb9d8c")
+		(property "Sheetname" "jk-flipflop27"
+			(at 88.9 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 88.9 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 104.14 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ddbaab8e-48cd-46f4-918f-1e3e3266ee2a")
+		)
+		(pin "Q" output
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d1e33c9-f2b0-43f5-b3cd-6b8d079d85c9")
+		)
+		(pin "k" input
+			(at 88.9 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "efb35480-5f74-4323-b8c8-b46a77675c35")
+		)
+		(pin "reset" input
+			(at 88.9 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef25a74b-4152-4471-87fe-9f11ef449f9b")
+		)
+		(pin "clk" input
+			(at 88.9 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e294894f-3f7c-4233-83cb-9c963e73c8c2")
+		)
+		(pin "j" input
+			(at 88.9 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "11cddb2d-1007-44ff-8c14-3fbded91d5d9")
+		)
+		(pin "preset" input
+			(at 88.9 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "854d3e7e-38e7-489a-a14e-76c7cb920ad2")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54c1563b-2994-4dac-84a3-7c78a10b1cd9")
+		(property "Sheetname" "jk-flipflop17"
+			(at 317.5 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 317.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 332.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a577fb13-4c12-4e1e-9d63-d35256ee9a9b")
+		)
+		(pin "Q" output
+			(at 332.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54fc2cda-c1e6-4302-89c6-6535a0ae6178")
+		)
+		(pin "k" input
+			(at 317.5 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbe887a8-049f-44dd-8522-44d0231de777")
+		)
+		(pin "reset" input
+			(at 317.5 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd36ac2a-6134-4ea6-a293-41d129e1d203")
+		)
+		(pin "clk" input
+			(at 317.5 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9988c283-9a7a-409d-bb2b-c3b63f9c0ddb")
+		)
+		(pin "j" input
+			(at 317.5 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4be5bbcc-5d37-4e55-a3cf-f6c3cf43a411")
+		)
+		(pin "preset" input
+			(at 317.5 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "483c7b3e-5470-4b16-8d7d-38161b19df2e")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "575a2481-4881-401f-b176-0581796da95c")
+		(property "Sheetname" "and9"
+			(at 144.78 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 144.78 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f51df1e0-55f7-4c7b-a532-21cee9559376")
+		)
+		(pin "in0" input
+			(at 144.78 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71ba6ec7-9964-4a62-89db-3d27b14d3d3e")
+		)
+		(pin "in1" input
+			(at 144.78 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26251da8-9d72-4a46-b8e5-4d4236f82e60")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "43")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "619ec1a2-c311-4501-a9c8-c34268c597c1")
+		(property "Sheetname" "and27"
+			(at 220.98 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 220.98 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c3f1045-275a-447f-971b-9cdb4faa7626")
+		)
+		(pin "in0" input
+			(at 220.98 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60dc127f-43ad-4d44-9fb6-a6e844fbc847")
+		)
+		(pin "in1" input
+			(at 220.98 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2b0a8e0-7272-4ae4-8397-bfd3372803be")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "61")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62d527f3-6aa3-4266-911a-38e61cd6933f")
+		(property "Sheetname" "and20"
+			(at 259.08 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 259.08 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30ecd928-8e12-41a1-862b-86f3d655054e")
+		)
+		(pin "in0" input
+			(at 259.08 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca4e1bba-56f8-410b-be5d-e508bc767d1b")
+		)
+		(pin "in1" input
+			(at 259.08 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74585037-4b67-4d37-a062-ff2a6882f400")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "54")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b8ce077-b0ae-43da-a2bc-89867deb096d")
+		(property "Sheetname" "and17"
+			(at 144.78 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 144.78 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 157.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0d8018a-c3e4-4f75-ad94-b1a292376417")
+		)
+		(pin "in0" input
+			(at 144.78 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a27b48b-c639-4030-81f3-664de5e9b753")
+		)
+		(pin "in1" input
+			(at 144.78 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4e470a0-5ac8-471b-adb4-7087519db74b")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "51")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "764aa18d-3dd2-45f0-ae1f-e05375faa537")
+		(property "Sheetname" "jk-flipflop30"
+			(at 203.2 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 203.2 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 218.44 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6c5edc2d-cc1b-49a1-9a69-58ac6472fec2")
+		)
+		(pin "Q" output
+			(at 218.44 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cdc68f34-553f-47be-afd6-96ecbbc8cff1")
+		)
+		(pin "k" input
+			(at 203.2 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12eb36d0-31e6-463a-b0c8-970bcb7bd4ff")
+		)
+		(pin "reset" input
+			(at 203.2 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92e7b613-dee0-4414-9c5c-699dc1ba7891")
+		)
+		(pin "clk" input
+			(at 203.2 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a68030f-e649-4d24-a468-58f3acf6d015")
+		)
+		(pin "j" input
+			(at 203.2 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c929212d-8748-4cc6-8567-bde50f551971")
+		)
+		(pin "preset" input
+			(at 203.2 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "194d38c5-6a8a-4b61-847d-5b2a89f8aa70")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "786e6af5-bd2b-4b96-8922-cd3c19615f01")
+		(property "Sheetname" "jk-flipflop12"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 127 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ad08eaa-3e34-4d72-97c0-5ca1ebb11e82")
+		)
+		(pin "Q" output
+			(at 142.24 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b4c28a20-760c-4a25-911b-7afd9021e06c")
+		)
+		(pin "k" input
+			(at 127 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "552bd50b-61b2-4e68-a80e-aa03f6794dcd")
+		)
+		(pin "reset" input
+			(at 127 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c94b515-1bfa-4298-b006-ff8197551972")
+		)
+		(pin "clk" input
+			(at 127 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd9a9c35-b2a2-4a0d-843a-7d4f28404a36")
+		)
+		(pin "j" input
+			(at 127 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "837fbe19-b27f-4b45-8444-30e5009461d7")
+		)
+		(pin "preset" input
+			(at 127 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57346ff0-5667-4589-953f-0463281d58e5")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7923dac4-0d78-4a74-ac74-2ad85db88030")
+		(property "Sheetname" "jk-flipflop33"
+			(at 317.5 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 317.5 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 332.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "147e9fdc-7ca3-487b-b173-b9790c303544")
+		)
+		(pin "Q" output
+			(at 332.74 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8db980ba-2e19-409c-bc90-ee2b096f013e")
+		)
+		(pin "k" input
+			(at 317.5 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7899370a-3cf4-42e3-a2bc-777fa117dfc0")
+		)
+		(pin "reset" input
+			(at 317.5 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e89bf4f0-42e8-40d2-92e3-1c6a70628978")
+		)
+		(pin "clk" input
+			(at 317.5 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1207d3f8-61ef-46f4-b1ee-f803bec5226e")
+		)
+		(pin "j" input
+			(at 317.5 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5bcfcdc-346d-4a10-b985-739cf6da3c54")
+		)
+		(pin "preset" input
+			(at 317.5 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19544848-bcd9-4663-b549-0e2fd4110742")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "34")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 336.55 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c1c5557-06f1-4eb5-a3c7-f49b319a6ebe")
+		(property "Sheetname" "and6"
+			(at 336.55 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 336.55 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 349.25 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ba6badab-6176-4844-bc54-d9b2e91db97e")
+		)
+		(pin "in0" input
+			(at 336.55 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd1946d0-fd73-4bfd-b681-557b9ff97733")
+		)
+		(pin "in1" input
+			(at 336.55 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c1e7b8a-2d73-4476-b2d6-28474d522420")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "40")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d059fa7-5e48-4593-bd85-8bd66b68247c")
+		(property "Sheetname" "jk-flipflop31"
+			(at 241.3 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 241.3 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a4ee35a-0c42-4442-b314-b0b860f25c96")
+		)
+		(pin "Q" output
+			(at 256.54 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5158123a-6fbc-48a4-978f-6298394d8fdc")
+		)
+		(pin "k" input
+			(at 241.3 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ae36759e-39f4-4b9c-a1ad-8206843dc2e4")
+		)
+		(pin "reset" input
+			(at 241.3 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33931a6f-5fad-4668-8331-3a9025ba1204")
+		)
+		(pin "clk" input
+			(at 241.3 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06dbb786-e64c-4216-afc2-5c654690ef82")
+		)
+		(pin "j" input
+			(at 241.3 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38683f24-b359-45a7-b213-85885a83223b")
+		)
+		(pin "preset" input
+			(at 241.3 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39f5b652-8b2a-44a9-bfcd-f0d751f73535")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "32")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d4e4c15-bec3-4463-bc02-7110c9099183")
+		(property "Sheetname" "jk-flipflop26"
+			(at 50.8 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 50.8 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93fd95d8-6704-4aa3-ae64-d06dedef65a7")
+		)
+		(pin "Q" output
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8ca2297-3924-4b20-9f11-1f6a2ae5e608")
+		)
+		(pin "k" input
+			(at 50.8 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "341f751b-824b-4461-a9cb-b27ac5e2b168")
+		)
+		(pin "reset" input
+			(at 50.8 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a106ee7-b684-45e4-b8aa-463fd0670572")
+		)
+		(pin "clk" input
+			(at 50.8 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95e7cf2e-fc13-4dec-91d9-24a82cfd1fc9")
+		)
+		(pin "j" input
+			(at 50.8 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "053ff1fc-1f7d-4e6d-96f2-8d9bdfc6ee79")
+		)
+		(pin "preset" input
+			(at 50.8 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a3ee909-ef10-4939-ba33-1deaf1010d8e")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 298.45 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e0034e0-02ed-46af-9fa2-a42fa7cb4a32")
+		(property "Sheetname" "and5"
+			(at 298.45 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 298.45 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 311.15 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1502c2ab-d4d3-4129-8ccc-8ad88d56cf44")
+		)
+		(pin "in0" input
+			(at 298.45 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7bdf9896-129b-44eb-8c4f-4f607f506367")
+		)
+		(pin "in1" input
+			(at 298.45 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7980f564-defd-468c-93fc-df86668174c8")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 317.5 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "860f278e-2148-4d84-b63f-7f893339faf2")
+		(property "Sheetname" "jk-flipflop25"
+			(at 317.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 317.5 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 332.74 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ac204e0e-7615-4a3e-b0bd-59f1455de968")
+		)
+		(pin "Q" output
+			(at 332.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "240f9e7e-c8ec-44d4-b3de-1ff6ab66373c")
+		)
+		(pin "k" input
+			(at 317.5 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e3628399-b808-4000-b980-1d2539354925")
+		)
+		(pin "reset" input
+			(at 317.5 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20efb19f-d7f8-4e69-adb2-11bbb655bd28")
+		)
+		(pin "clk" input
+			(at 317.5 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2f4acff0-b333-4558-933d-64684aac8574")
+		)
+		(pin "j" input
+			(at 317.5 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "163cf635-bfff-44ea-ab74-241fc534ecfd")
+		)
+		(pin "preset" input
+			(at 317.5 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e7ecad3-68de-4476-beb9-08ef31b48614")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89bd58f6-faee-4c1d-b4f2-38e93a3af534")
+		(property "Sheetname" "and18"
+			(at 182.88 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 182.88 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37d2d7cf-b800-4d76-a922-542a812b4e9b")
+		)
+		(pin "in0" input
+			(at 182.88 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b14bf7d7-df16-42cc-978a-ecb37e152558")
+		)
+		(pin "in1" input
+			(at 182.88 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "21e52a3a-b9de-486e-a3ca-391e8022d102")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "52")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a0d8132-3265-4a24-94c2-561bbddac7a3")
+		(property "Sheetname" "and12"
+			(at 259.08 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 259.08 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 271.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cbc9a7a-5250-4fba-ad0c-f42393c0896e")
+		)
+		(pin "in0" input
+			(at 259.08 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90a9ef27-5e99-48cd-92ba-d48874b1b460")
+		)
+		(pin "in1" input
+			(at 259.08 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "353fecc9-6f04-430b-ae4d-9b0aa04871b1")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "46")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.18 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8aedf53b-8ba8-4310-ad17-ba74b223b665")
+		(property "Sheetname" "and13"
+			(at 297.18 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 297.18 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 309.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86178de6-72e0-45cd-89de-6ec1bf16008e")
+		)
+		(pin "in0" input
+			(at 297.18 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e97ad25-0efb-403f-abe5-e015585aee5b")
+		)
+		(pin "in1" input
+			(at 297.18 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42046afc-4727-455b-8412-d86dd6a5b059")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fdfd24f-a94c-412e-a540-dc0e62c10512")
+		(property "Sheetname" "and11"
+			(at 220.98 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 220.98 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 233.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "380e4740-3a01-41ec-863c-180585d5438f")
+		)
+		(pin "in0" input
+			(at 220.98 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9aa2fd0f-f143-4c86-a94e-ae6c54160e1f")
+		)
+		(pin "in1" input
+			(at 220.98 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a17c0c3-f912-4e84-a98f-0aa7f6d41b77")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "45")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 220.98 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96599a8f-043d-442e-918a-88efbcc75e28")
+		(property "Sheetname" "and19"
+			(at 220.98 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 220.98 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 233.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75cfb2b0-17b6-4ed0-92a0-b7512c49fdf0")
+		)
+		(pin "in0" input
+			(at 220.98 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7d5c64ee-084b-4b17-a8ed-a8e0d1f093dd")
+		)
+		(pin "in1" input
+			(at 220.98 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a63b1fbf-aa54-4e8c-8246-9970479af460")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "53")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "976d946e-d29c-4d0b-a38f-3ff17ff51685")
+		(property "Sheetname" "jk-flipflop28"
+			(at 127 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 127 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 142.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5ad53829-83bb-42a5-b106-3b0cd3891379")
+		)
+		(pin "Q" output
+			(at 142.24 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc06f6d2-7a3e-4611-9235-f0c3ec71911d")
+		)
+		(pin "k" input
+			(at 127 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "407b7e77-e38c-41aa-8baa-6659b913186b")
+		)
+		(pin "reset" input
+			(at 127 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df277542-04b9-49a1-a5d7-e0867611436e")
+		)
+		(pin "clk" input
+			(at 127 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "724184d9-2d64-4a51-9b91-2f6f1f8c8c15")
+		)
+		(pin "j" input
+			(at 127 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "177ee16d-5a05-456c-88b6-7ad388415b35")
+		)
+		(pin "preset" input
+			(at 127 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a23290d3-9f72-4ecb-8e68-782956ff533b")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 297.18 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "985a0f03-5713-4df4-ab46-42b8b4011071")
+		(property "Sheetname" "and29"
+			(at 297.18 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 297.18 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 309.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d097dac-8398-4491-83ab-108290ba6bab")
+		)
+		(pin "in0" input
+			(at 297.18 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b656ad9d-1d8c-4cd4-86af-aefc9185e8da")
+		)
+		(pin "in1" input
+			(at 297.18 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71bfc79c-c6fe-4529-828e-2b03e2f54beb")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "63")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 336.55 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98f2cc2a-a0dd-4819-8b19-c03af2aac856")
+		(property "Sheetname" "and14"
+			(at 336.55 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 336.55 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 349.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da41c0d6-1042-4c89-9834-3f278f04f95a")
+		)
+		(pin "in0" input
+			(at 336.55 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bcc290bc-0b1a-4186-9a5c-ceff62ac46f1")
+		)
+		(pin "in1" input
+			(at 336.55 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f25cc76c-b779-4314-a1f9-da51648dc8dc")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "48")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 259.08 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a0acb26-3073-43ec-a515-cd97fe0bfce5")
+		(property "Sheetname" "and28"
+			(at 259.08 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 259.08 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 271.78 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "708f349e-ee6a-462a-b925-d0c511d6eba3")
+		)
+		(pin "in0" input
+			(at 259.08 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bedfe125-3d60-4f04-afb4-06413fa8c4ae")
+		)
+		(pin "in1" input
+			(at 259.08 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a6a244b3-54d5-4e28-b11d-17b5e3910e22")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "62")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b252b26-ee9f-4532-ac93-5a5254cf1905")
+		(property "Sheetname" "jk-flipflop5"
+			(at 165.1 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 165.1 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "68049ff7-cea0-4bbe-aa03-e7f706359396")
+		)
+		(pin "Q" output
+			(at 180.34 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bd7be20d-1960-42a6-9dd0-8dc88938febf")
+		)
+		(pin "k" input
+			(at 165.1 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73a14963-cde2-4848-bfab-fe2a96ee322e")
+		)
+		(pin "reset" input
+			(at 165.1 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e692c57-bdb7-4e10-a809-766d53c01d93")
+		)
+		(pin "clk" input
+			(at 165.1 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8496c271-7bc6-42d6-b5a6-181374897743")
+		)
+		(pin "j" input
+			(at 165.1 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "806a8239-b802-453b-bb3f-a022988e5e65")
+		)
+		(pin "preset" input
+			(at 165.1 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4945ac2f-1068-4d0c-a436-a517ce33ba16")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9dbc3222-380f-4e58-97e4-32711228b2ea")
+		(property "Sheetname" "jk-flipflop2"
+			(at 50.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 50.8 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 66.04 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8941b84-b781-43f0-bf69-2fbf9c516887")
+		)
+		(pin "Q" output
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da91bceb-0642-4645-9709-5a68a4f31a6f")
+		)
+		(pin "k" input
+			(at 50.8 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98973658-4e35-4821-b891-4ac9aa511429")
+		)
+		(pin "reset" input
+			(at 50.8 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b0296c7-dd15-4f87-8936-f250ff75aadd")
+		)
+		(pin "clk" input
+			(at 50.8 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2749b1d4-9f94-4e4b-a81d-606477658b68")
+		)
+		(pin "j" input
+			(at 50.8 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cb8cd9d-03ac-4c04-9153-7c224ab1914b")
+		)
+		(pin "preset" input
+			(at 50.8 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee8efec2-2b77-445e-b4fd-fc39ff4bed83")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a37a40cd-cede-46ac-8c85-7717abd25435")
+		(property "Sheetname" "jk-flipflop3"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 88.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 104.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e72f9568-a7e4-4b85-8ee8-0cb6349dc42d")
+		)
+		(pin "Q" output
+			(at 104.14 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3b93f757-b694-4171-90c0-3b542b530bca")
+		)
+		(pin "k" input
+			(at 88.9 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da1b33de-5fba-4239-a8b9-1de82caff4ee")
+		)
+		(pin "reset" input
+			(at 88.9 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2e8551b-ec1f-4f00-baf4-bd9ef45eec73")
+		)
+		(pin "clk" input
+			(at 88.9 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1288514-f23b-40dd-83bf-5af0d6ac5767")
+		)
+		(pin "j" input
+			(at 88.9 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bc3fa1d0-63be-42db-80d1-d1568c265f82")
+		)
+		(pin "preset" input
+			(at 88.9 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb3753e1-b2d6-4827-b232-f66bf332a987")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a508d72a-d47c-4605-9948-507e526f6f81")
+		(property "Sheetname" "jk-flipflop24"
+			(at 279.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 279.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 294.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5947b76a-cfa4-4230-867a-a3bed5f003f8")
+		)
+		(pin "Q" output
+			(at 294.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4fda4a2-b76d-4f61-97d4-09b4aea2a7be")
+		)
+		(pin "k" input
+			(at 279.4 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6cd06ed-da64-49cd-8daf-4473d2ee478c")
+		)
+		(pin "reset" input
+			(at 279.4 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50397f2a-a6e6-4198-a3a0-2f017c0093e6")
+		)
+		(pin "clk" input
+			(at 279.4 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3671a95b-f7f1-441a-827f-cd6929a38cec")
+		)
+		(pin "j" input
+			(at 279.4 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a75955c-79d6-40f7-8564-a379fed11180")
+		)
+		(pin "preset" input
+			(at 279.4 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f3ce939-fa43-4d6c-968c-fb7283039316")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6adcec0-b25f-48b1-816a-07eabdc837ca")
+		(property "Sheetname" "jk-flipflop19"
+			(at 88.9 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 88.9 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b81db83-81c2-4c9d-b3f6-07403d655e23")
+		)
+		(pin "Q" output
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b1aac9-767c-41c4-87a2-92d017c18566")
+		)
+		(pin "k" input
+			(at 88.9 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d6348e4a-3a72-4b1f-8aa0-cc3e182ecaff")
+		)
+		(pin "reset" input
+			(at 88.9 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7eba41b4-42be-4c7f-8717-68be20a394d9")
+		)
+		(pin "clk" input
+			(at 88.9 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0426b02c-8e6a-45f2-be4e-65f615645162")
+		)
+		(pin "j" input
+			(at 88.9 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e200fbb8-cb24-4fed-97a2-f12667a79714")
+		)
+		(pin "preset" input
+			(at 88.9 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e336245e-a4aa-4be1-a55b-3426b1fa7caa")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab84dfbe-011e-4f00-b529-2447e4fad627")
+		(property "Sheetname" "and23"
+			(at 68.58 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 68.58 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "45607837-0431-40b7-9001-317bbae134d1")
+		)
+		(pin "in0" input
+			(at 68.58 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bd726db3-9b50-4c0c-9497-aa96ae8ff003")
+		)
+		(pin "in1" input
+			(at 68.58 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e49d62a7-a6c0-479d-b24a-771472f62ebf")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "57")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abe0778e-c925-42d2-bd54-46d8e48d28f5")
+		(property "Sheetname" "and15"
+			(at 68.58 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 68.58 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 81.28 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b901a21-86ff-42f7-b94c-c28278e79713")
+		)
+		(pin "in0" input
+			(at 68.58 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8fa6b61-aa40-4161-8361-102fd698c01e")
+		)
+		(pin "in1" input
+			(at 68.58 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14441e6e-40eb-4897-b366-a3af628d1d46")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "49")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4d0de21-fe51-452e-ac38-e89869f22e43")
+		(property "Sheetname" "and25"
+			(at 144.78 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 144.78 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "183f6299-3375-40e5-837c-362f04caa42b")
+		)
+		(pin "in0" input
+			(at 144.78 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "340c3121-154a-4b99-9020-60d480bac4d1")
+		)
+		(pin "in1" input
+			(at 144.78 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6e9adfa-f7bb-4c92-a450-79ef6aeaef55")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "59")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b96a5574-32e4-490a-9165-59f4d3fb145f")
+		(property "Sheetname" "jk-flipflop7"
+			(at 241.3 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 241.3 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43d9ea5d-aa83-4523-a1e8-5a67c6064686")
+		)
+		(pin "Q" output
+			(at 256.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c1fd3105-2e9f-4bde-9df9-958818bb517c")
+		)
+		(pin "k" input
+			(at 241.3 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3a04bbf-fc65-435e-9dff-7be4af9f00c4")
+		)
+		(pin "reset" input
+			(at 241.3 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa0cdc2c-184e-4f5f-a937-961947100e5f")
+		)
+		(pin "clk" input
+			(at 241.3 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85ba8312-cee3-47d9-a5a0-7bf3ec8f0f49")
+		)
+		(pin "j" input
+			(at 241.3 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "454c5551-5cfb-4cb9-aa2a-96ffa4d4aff1")
+		)
+		(pin "preset" input
+			(at 241.3 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "87c0f20e-76a2-43ab-99ef-9100afd8db21")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 139.7)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb42daf5-ea20-4d04-9d36-a589431b8968")
+		(property "Sheetname" "jk-flipflop32"
+			(at 279.4 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 279.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 294.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43d35598-189d-4975-82e7-c979d4fd173c")
+		)
+		(pin "Q" output
+			(at 294.64 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aeac53e7-e0e4-4609-9d1c-cabee83d0744")
+		)
+		(pin "k" input
+			(at 279.4 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b465a82b-4859-4c48-a450-7e9a96e2be80")
+		)
+		(pin "reset" input
+			(at 279.4 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bfa8aec8-c8a2-4091-8893-932251621d28")
+		)
+		(pin "clk" input
+			(at 279.4 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c261282-de85-4ce6-b127-f97258f1e6a8")
+		)
+		(pin "j" input
+			(at 279.4 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eec79161-349e-484f-912f-d63172d6a65d")
+		)
+		(pin "preset" input
+			(at 279.4 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42dc17a1-b070-47b6-b71f-dff17deef871")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "33")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc2ad3fc-3011-4917-9395-fb51ba1a1c89")
+		(property "Sheetname" "and7"
+			(at 68.58 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 68.58 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00e797e4-b6e0-41d9-9669-ab897d76ebab")
+		)
+		(pin "in0" input
+			(at 68.58 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c885927-2c6a-464a-a25a-a63d1288d652")
+		)
+		(pin "in1" input
+			(at 68.58 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cef3484d-2612-45a0-93e4-bd873bbce403")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "41")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc7d7f67-55c9-4450-9de3-d17f9ba5b48c")
+		(property "Sheetname" "and"
+			(at 107.95 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 107.95 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 120.65 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb9e450a-2891-41ac-a120-f3b14751d538")
+		)
+		(pin "in0" input
+			(at 107.95 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "264046a0-9eb1-4a7c-9c44-012619fafe2e")
+		)
+		(pin "in1" input
+			(at 107.95 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54845995-2b26-4223-8b12-744512ec114f")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2c703cf-4aaf-4d0d-ac22-954a06690800")
+		(property "Sheetname" "and10"
+			(at 182.88 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 182.88 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 195.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15fba9f9-75d2-4038-b730-81c6085217f7")
+		)
+		(pin "in0" input
+			(at 182.88 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7901b49-81a0-4f8a-b9e6-1a3326996355")
+		)
+		(pin "in1" input
+			(at 182.88 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12dc554b-ff26-4c0b-aa27-cf128933f333")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "44")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 336.55 85.09)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6970550-79ab-4451-acec-b77d510220be")
+		(property "Sheetname" "and22"
+			(at 336.55 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 336.55 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 349.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "291dd5af-7928-49f6-a8e5-97fe6dc9fbe3")
+		)
+		(pin "in0" input
+			(at 336.55 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "499132a1-10ca-4a95-8ee3-4e7e44a7f5ea")
+		)
+		(pin "in1" input
+			(at 336.55 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e4157af-0a9b-4b53-b7b5-4ab272bbd79a")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "56")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7e09ff0-7cc1-4cdc-8a45-0228ee3d02ad")
+		(property "Sheetname" "jk-flipflop20"
+			(at 127 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 127 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 142.24 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc50ae35-7475-423c-8a38-fa44c5a24a3e")
+		)
+		(pin "Q" output
+			(at 142.24 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e86c2458-db3b-4e25-b597-92c293f9c603")
+		)
+		(pin "k" input
+			(at 127 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04ef9640-9f42-48cf-a7fe-4153c5e4a940")
+		)
+		(pin "reset" input
+			(at 127 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cd70adcd-5927-4dd9-973d-9fe12d2d644c")
+		)
+		(pin "clk" input
+			(at 127 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9445fd1f-337d-4728-beee-b21c3edc6361")
+		)
+		(pin "j" input
+			(at 127 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbcc6b2e-1cc1-432c-873f-ef51a5db5002")
+		)
+		(pin "preset" input
+			(at 127 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adeabf56-e068-4288-a86c-72177f2ccf45")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d06a3bff-0e80-455b-8501-a78f4a3fc557")
+		(property "Sheetname" "jk-flipflop21"
+			(at 165.1 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 165.1 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbf40cbb-e360-4614-9dfa-2b5113b99017")
+		)
+		(pin "Q" output
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e5d603a3-206a-4544-8622-4ee50087a3fe")
+		)
+		(pin "k" input
+			(at 165.1 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c11a698a-520f-4eea-bd91-1a2f4934a246")
+		)
+		(pin "reset" input
+			(at 165.1 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76a47080-e673-4bc5-af42-bf99f158ddad")
+		)
+		(pin "clk" input
+			(at 165.1 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5aa7aa9e-c74f-4e5a-9eff-600a8e28ded0")
+		)
+		(pin "j" input
+			(at 165.1 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a26a03e-0824-4b03-8a51-5bad23567b39")
+		)
+		(pin "preset" input
+			(at 165.1 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c1edf72-73a4-425d-ab6d-2eca66b2de2d")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d12885ee-2f49-43c3-8cb4-2006e1d47a9b")
+		(property "Sheetname" "jk-flipflop11"
+			(at 88.9 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 88.9 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 104.14 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "16ecbf64-039b-42f7-8664-5aa739cfc7c5")
+		)
+		(pin "Q" output
+			(at 104.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dc279268-0617-4a13-bdf2-1c1bc94765e6")
+		)
+		(pin "k" input
+			(at 88.9 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ba61c03-4a13-4dc1-91a7-b55233f5f7be")
+		)
+		(pin "reset" input
+			(at 88.9 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da9493f4-8cd9-42d0-ba43-765d68727049")
+		)
+		(pin "clk" input
+			(at 88.9 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b03425f4-3a8f-430b-acb0-b55177c01b4c")
+		)
+		(pin "j" input
+			(at 88.9 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "80208f61-2377-409a-bc4e-178e602384c0")
+		)
+		(pin "preset" input
+			(at 88.9 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d4adbba7-b10f-449b-85a8-2c24c9ef8aa6")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4c6e026-038c-4193-93fe-c1d87ab47879")
+		(property "Sheetname" "jk-flipflop10"
+			(at 50.8 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 50.8 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d173d00-98c9-4e24-8330-3105c2d22ed4")
+		)
+		(pin "Q" output
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5328070-b05e-4024-86fa-b8fb7562c5a6")
+		)
+		(pin "k" input
+			(at 50.8 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e204dd9e-2089-4b85-8d9b-c563bf95eb7a")
+		)
+		(pin "reset" input
+			(at 50.8 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5e8bed1-9817-4038-886b-c498a6b112a2")
+		)
+		(pin "clk" input
+			(at 50.8 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44c76f42-cccf-4d92-84fb-0f67e9064a7b")
+		)
+		(pin "j" input
+			(at 50.8 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2db9d3b3-5a6f-4e8f-aa2a-792f82f9f67e")
+		)
+		(pin "preset" input
+			(at 50.8 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "847aa7ed-5aa4-4fa0-945e-aed8dd91ee02")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbe8e042-3324-442b-b372-24ecc532dee2")
+		(property "Sheetname" "and24"
+			(at 106.68 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 106.68 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 119.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b575feef-2607-41f7-9cdd-42b10393e328")
+		)
+		(pin "in0" input
+			(at 106.68 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df4f27c6-1cb2-4865-9765-3a64acd430fa")
+		)
+		(pin "in1" input
+			(at 106.68 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0c52a36-3ed3-4d90-b259-0b1aaaf7fb05")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "58")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 146.05 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e52f8bf0-64e2-4c6d-a712-3cdd3c586a18")
+		(property "Sheetname" "and1"
+			(at 146.05 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 146.05 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 158.75 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6878077-5595-49e7-aec9-78ea01d7652c")
+		)
+		(pin "in0" input
+			(at 146.05 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ccfd90bd-070f-4ff2-85c0-c3c0f4bdfdf9")
+		)
+		(pin "in1" input
+			(at 146.05 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bab97be-b1e5-440c-81da-de7b01911dec")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 44.45)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e855e1eb-eb87-4a9d-88fc-dd99e0aca153")
+		(property "Sheetname" "and8"
+			(at 106.68 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 106.68 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 119.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b96b143-2e7e-44e2-a55e-3c8d6051e075")
+		)
+		(pin "in0" input
+			(at 106.68 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1216b11-5b63-4627-a01b-3f1101eb827f")
+		)
+		(pin "in1" input
+			(at 106.68 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "92a0e0d2-3bdc-4364-a760-b302663a76b3")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "42")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e977fc92-23f6-4f12-9021-515107e209a5")
+		(property "Sheetname" "jk-flipflop16"
+			(at 279.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 279.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 294.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31ad26fe-9af5-436b-b653-41353f534a35")
+		)
+		(pin "Q" output
+			(at 294.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e8ec956-d9fe-49f8-a761-3e243445929e")
+		)
+		(pin "k" input
+			(at 279.4 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49c77ce4-d8b3-4aa3-8062-584d5c3b4eb2")
+		)
+		(pin "reset" input
+			(at 279.4 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36a5850e-0eae-4468-8413-f66219e61137")
+		)
+		(pin "clk" input
+			(at 279.4 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fcfd09ee-0150-44d7-a82d-c1512729bdf7")
+		)
+		(pin "j" input
+			(at 279.4 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8784a9f6-1f68-4130-ab5c-fbac403c9a98")
+		)
+		(pin "preset" input
+			(at 279.4 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55af6436-a500-42ec-a3f4-7057e6eaecc7")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 12.7)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eaff5f13-5d87-4daf-91f5-feb1beb91ea3")
+		(property "Sheetname" "and3"
+			(at 222.25 11.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 222.25 20.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 234.95 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f71744f1-1ad4-4d45-bf50-d55b3cb2edc0")
+		)
+		(pin "in0" input
+			(at 222.25 15.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7e741689-a538-487a-a8a0-87da152f0096")
+		)
+		(pin "in1" input
+			(at 222.25 17.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc193ffc-3736-467c-a852-50a65328645a")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f19c9d2f-8269-4844-af20-2d304735d9c9")
+		(property "Sheetname" "jk-flipflop14"
+			(at 203.2 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 203.2 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 218.44 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "454d91d6-fbc0-455f-b9d5-d28467c79339")
+		)
+		(pin "Q" output
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f550138-327b-45f2-894a-ddc882e331fd")
+		)
+		(pin "k" input
+			(at 203.2 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d86a5d9b-4cd8-4e85-999a-7538bb35604c")
+		)
+		(pin "reset" input
+			(at 203.2 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9562587-81b9-4e02-b737-30fac54bddcf")
+		)
+		(pin "clk" input
+			(at 203.2 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de273c24-12c8-4cd3-87f9-67fff2170298")
+		)
+		(pin "j" input
+			(at 203.2 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4dc977d3-d787-4a9c-acdb-e03c3dbfb9b1")
+		)
+		(pin "preset" input
+			(at 203.2 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "89feaa8f-d068-4273-b4db-ba0cb5476fb2")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f371935f-890c-47bd-af2c-7387fdf581c7")
+		(property "Sheetname" "jk-flipflop4"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 127 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d6fcfde-62c2-4a41-8f52-286373247c10")
+		)
+		(pin "Q" output
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b678ac8-d451-4744-95dc-fc9aee628eef")
+		)
+		(pin "k" input
+			(at 127 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1689fa3f-8ac3-4f21-b969-26e79b8c4ded")
+		)
+		(pin "reset" input
+			(at 127 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "799c916a-ba61-4cc5-90f4-749b3f854c9f")
+		)
+		(pin "clk" input
+			(at 127 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c716190-8ebd-4865-afec-20aea770dcf7")
+		)
+		(pin "j" input
+			(at 127 29.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "15cacf38-e05b-43f0-874a-55a993e2c710")
+		)
+		(pin "preset" input
+			(at 127 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6064ef5d-7e83-4fb6-8078-10bb0caa0243")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc5d49c1-5576-4e6a-9d05-07b06687eab0")
+		(property "Sheetname" "jk-flipflop13"
+			(at 165.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 165.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 180.34 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "058d0d7b-bba5-4b91-9d0c-6eb2f34c1fd5")
+		)
+		(pin "Q" output
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "779b70f5-8b83-44c6-9c61-46f0fda88376")
+		)
+		(pin "k" input
+			(at 165.1 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0b611c9-34d2-401f-a8ec-002ffebce6c6")
+		)
+		(pin "reset" input
+			(at 165.1 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0e50f8d-1fb7-4b6f-ba19-b03fcdcbac5b")
+		)
+		(pin "clk" input
+			(at 165.1 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29c55539-7f65-44db-ae83-34f9df0e9db1")
+		)
+		(pin "j" input
+			(at 165.1 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f6d0dc8-c26d-432d-bd18-bf8751694bec")
+		)
+		(pin "preset" input
+			(at 165.1 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2b49c64a-5ca9-430d-b1c0-f76983730b25")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 101.6)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd3df4f2-105d-4e17-a900-b54098c6602f")
+		(property "Sheetname" "jk-flipflop22"
+			(at 203.2 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 203.2 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3f6fb8f-940e-4680-aa91-f9a390548f9b")
+		)
+		(pin "Q" output
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b9f6f81d-4961-4e7b-93d1-066ec4451a59")
+		)
+		(pin "k" input
+			(at 203.2 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4fd9fd2-28dd-4603-aa63-262ec5969bf2")
+		)
+		(pin "reset" input
+			(at 203.2 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d9416ec-fdaa-4738-9581-5d39d9d8ed33")
+		)
+		(pin "clk" input
+			(at 203.2 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79dd8577-30e9-456b-98e2-fd6c43569ee2")
+		)
+		(pin "j" input
+			(at 203.2 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d584445d-89d3-41c5-b143-f8eb5a89383a")
+		)
+		(pin "preset" input
+			(at 203.2 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "035e49f1-ea23-4838-ac08-f970654e7d01")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 182.88 123.19)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff337a74-48e2-4375-9a63-db92b85ab373")
+		(property "Sheetname" "and26"
+			(at 182.88 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "and_sch.kicad_sch"
+			(at 182.88 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "out" input
+			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b3993dd9-7fe4-41b0-bc46-4fc70226f819")
+		)
+		(pin "in0" input
+			(at 182.88 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9283de88-130d-480b-b1ae-09893073f223")
+		)
+		(pin "in1" input
+			(at 182.88 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a455920e-0aac-4af8-a626-aa5b5e1c1520")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "60")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 63.5)
+		(size 15.24 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff7cede8-ae77-400c-a8e6-ab6c25036b97")
+		(property "Sheetname" "jk-flipflop15"
+			(at 241.3 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jk-flipflop.kicad_sch"
+			(at 241.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "!Q" output
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ede09b89-663e-4ee7-bd48-eaffc216d032")
+		)
+		(pin "Q" output
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3cdbbc85-b170-4d99-8bc2-ef90fd9a3426")
+		)
+		(pin "k" input
+			(at 241.3 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d807142-d549-49a9-9bdb-53c9ff5cce9e")
+		)
+		(pin "reset" input
+			(at 241.3 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ae6969d-cd99-4d8c-94ea-ad817a50f53e")
+		)
+		(pin "clk" input
+			(at 241.3 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2d16a04-8b60-4b7b-87b6-d4a687be720e")
+		)
+		(pin "j" input
+			(at 241.3 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c8e37a8a-85a0-432d-ae5d-c0ab6e51de63")
+		)
+		(pin "preset" input
+			(at 241.3 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95277128-0c6f-4b01-84ab-a8d4608c8478")
+		)
+		(instances
+			(project "disintegrated_clock"
+				(path "/9c10ef28-a96c-4147-a058-b8f0fdfdf18e"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
